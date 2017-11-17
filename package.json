@@ -1,6 +1,6 @@
 {
   "name": "whate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pass in an array, get a random value from it.",
   "main": "whate.js",
   "scripts": {
@@ -12,5 +12,9 @@
     "value"
   ],
   "author": "thatwasawkward",
-  "license": "ISC"
+  "license": "ISC",
+  "repository" : { 
+    "type": "git",
+    "url": "https://github.com/thatwasawkward/whate.git"
+  }
 }
