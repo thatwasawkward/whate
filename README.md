@@ -1,6 +1,7 @@
 Extremely simple module for getting a random value from an array. Completely indifferent.
 
-EXAMPLE:
+
+## Example
 
 ```javascript
 const whate = require('whate')
