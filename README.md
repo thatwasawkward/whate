@@ -7,16 +7,17 @@ const whate = require('whate')
 
 const array = [
 	'one',
-	2,
-	{'three': 3}
+	'two',
+	'three'
 ]
 
 const randomValue = whate.ver(array)
 
-console.log(randomValue) // **'one'**, **2**, or **{'three': 3}**
+console.log(randomValue) // 'one', 'two', or 'three'
 ```
 
-# Methods
+
+## Methods
 
 ### .ver(array)
 Returns a random value of any type.
