@@ -1,6 +1,6 @@
 {
   "name": "whate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Pass in an array, get a random value from it.",
   "main": "whate.js",
   "scripts": {
