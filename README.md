@@ -8,9 +8,9 @@ Extremely simple module for getting a random value from an array. Completely ind
 const whate = require('whate')
 
 const array = [
- 'one',
- 'two',
- 'three'
+	'one',
+	'two',
+	'three'
 ]
 
 const randomValue = whate.ver(array)
@@ -18,7 +18,7 @@ const randomValue = whate.ver(array)
 console.log(randomValue) // 'one', 'two', or 'three'
 ```
 
-## Main Method
+## Usage
 
 ### .ver(array)
 
