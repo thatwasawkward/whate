@@ -18,7 +18,7 @@ const randomValue = whate.ver(array)
 console.log(randomValue) // 'one', 'two', or 'three'
 ```
 
-## Usage
+## Primary Method
 
 ### .ver(array)
 
