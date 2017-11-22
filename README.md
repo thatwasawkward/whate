@@ -2,15 +2,19 @@
 
 Extremely simple module for getting a random value from an array. Completely indifferent.
 
-## Example
+## whate.ver(array)
+
+Returns a completely random value from the array.
+
+### Example
 
 ```javascript
 const whate = require('whate')
 
 const array = [
-	'one',
-	'two',
-	'three'
+    'one',
+    'two',
+    'three'
 ]
 
 const randomValue = whate.ver(array)
@@ -18,30 +22,19 @@ const randomValue = whate.ver(array)
 console.log(randomValue) // 'one', 'two', or 'three'
 ```
 
-## Primary Method
+### Other stuff, in case you need it
 
-### .ver(array)
-
-Returns a random value of any type.
-
-## Secondary Methods
-
-### .str(array)
-
+**whate.str(array)**
 Returns a random string.
 
-### .num(array)
-
+**whate.num(array)**
 Returns a random number.
 
-### .int(array)
-
+**whate.int(array)**
 Returns a random integer.
 
-### .arr(array)
-
+**whate.arr(array)**
 Returns a random array.
 
-### .obj(array)
-
+**whate.obj(array)**
 Returns a random non-array object.
